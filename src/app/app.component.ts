@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ninja-directory';
+
+  ninja = {
+    name: "Yoshi",
+    belt: "Black"
+  }
+
+  yell(e: Event) {
+    alert("Yell!");
+  }
 }
